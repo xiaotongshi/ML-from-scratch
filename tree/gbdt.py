@@ -1,9 +1,13 @@
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/' + '..'))
+
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import OneHotEncoder
 from decision_tree import RegressionTree
-from loss_func import LeastSquareLoss, ExponentialLoss
+from utils.loss_func import LeastSquareLoss, ExponentialLoss
 
 class GBDT(object):
     """Super class of GradientBoostingClassifier and GradientBoostinRegressor.

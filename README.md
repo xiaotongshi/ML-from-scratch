@@ -5,4 +5,4 @@
 # References:
 https://github.com/rushter/MLAlgorithms   
 https://github.com/eriklindernoren/ML-From-Scratch   
-https://github.com/dmlc/xgboost
+https://github.com/RRdmlearning/Machine-Learning-From-Scratch
